@@ -9,9 +9,11 @@ import superEth from '../assets/supereth.png'
 const Card = ({image , series , title , price , tag , time }) => {
   return (
     <CardContainer>
-      <CardImage>
+
+      <div className='card-img'>
         <img src={image} alt="image" />
-      </CardImage>
+      </div>
+      
       <CardContent>
         <div className="heading">
           <span className="series">{series}</span>
@@ -21,7 +23,7 @@ const Card = ({image , series , title , price , tag , time }) => {
           <h4 className="title">{title}</h4>
           <div className="price">
             <img src={superEth} alt="super eth" />
-            <h4>{price}</h4>
+            <h4>{price} ETH</h4>
           </div>
         </div>
         <div className="sub-detail">

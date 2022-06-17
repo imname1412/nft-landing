@@ -5,13 +5,19 @@ export const CardContainer = styled.div`
     background-color: var(--card-color);
     width: max-content;
     border-radius: 1rem;
+
+
+    /* img{
+        height: 10rem;
+        width: 12rem;
+    } */
 `
 export const CardImage = styled.div`
 
-    img{
+    /* img{
         height: 10rem;
         width: 12rem;
-    }
+    } */
 
 `
 export const CardContent = styled.div`
@@ -19,6 +25,8 @@ export const CardContent = styled.div`
     flex-direction: column;
     gap: 0.5rem;
     padding: 1rem;
+
+    
 
     .heading{
         /* border: 1px solid #fff; */
@@ -45,7 +53,15 @@ export const CardContent = styled.div`
         .price{
             display: flex;
             gap: 1rem;
+
+
+            /* img{
+                width: max-content;
+                height: max-content;
+            } */
         }
+
+        
     }
 
     .sub-detail{

@@ -67,6 +67,13 @@ export const Cards = styled.div`
         z-index: 3;
         transform: rotate(-10deg);
         font-size: 0.6rem;
+
+        .card-img{
+            img{
+                width: 12rem;
+                height: 10rem;
+            }
+        }
     }
 
     .card2{
@@ -76,5 +83,12 @@ export const Cards = styled.div`
         z-index: 2;
         transform: rotate(5deg);
         font-size: 0.7rem;
+
+        .card-img{
+            img{
+                height: 10rem;
+                width: 12rem;
+            }
+        }
     }
 `

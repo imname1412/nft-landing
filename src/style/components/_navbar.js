@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 
 export const NavContainer = styled.nav`
+    /* border: 1px solid white; */
     display: flex;
     justify-content: space-between;
-    border: 1px solid white;
+    align-items: center;
 `
 
 export const BrandContainer = styled.div`
